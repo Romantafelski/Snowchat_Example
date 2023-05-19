@@ -63,7 +63,7 @@ def extract_code(text) -> str:
     '''
     if len(text) < 5:
         return None
-    # Use OpenAI's GPT-3.5 to extract the SQL code
+    # Use OpenAI's code-davinci-002 to extract the SQL code
     response = openai.ChatCompletion.create(
     model='gpt-3.5-turbo',
     messages=[
