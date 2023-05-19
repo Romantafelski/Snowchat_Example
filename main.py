@@ -13,7 +13,7 @@ from utils.snowchat_ui import reset_chat_history, extract_code, message_func, is
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-#Limit of 3 inputs because gpt-3.5-turbo only allows 3 per min. 
+#Limit of 3 inputs because gpt-3.5-turbo only allows 60 per min for paid users.
 MAX_INPUTS = 60
 chat_history = []
 
