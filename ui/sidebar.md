@@ -1,6 +1,6 @@
 # SnowChat - Chat with you're Snowflake Data
 
-SnowChat is a tool that allows you to do SQL queries of your Snowflake database using natural language. Type in your question and Snowchat will convert the text into a SQL command and search your database. The SQL command will then be displayed, along with the results of the query in a convenient table for your viewing.
+SnowChat is a tool that allows you to do SQL queries of your Snowflake database using natural language. Type in your question and Snowchat will convert the text into a SQL command and search your database. The SQL command will then be displayed; as well as the results of the query in a convenient table for your viewing.
 
 Here are some example queries you can try with SnowChat:
 
