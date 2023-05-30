@@ -18,7 +18,7 @@ MAX_INPUTS = 60
 chat_history = []
 
 st.set_page_config(
-    page_title="snowChat",
+    page_title="SnowChat",
     page_icon="❄️",
     layout="centered",
     initial_sidebar_state="auto",
