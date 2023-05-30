@@ -47,7 +47,7 @@ def load_chain():
 chain = load_chain()
 snow_ddl = Snowddl()
 
-st.title("snowChat")
+st.title("SnowChat")
 st.caption("Talk your way through data")
 
 with open("ui/sidebar.md", "r") as sidebar_file:
