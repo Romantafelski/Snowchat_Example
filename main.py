@@ -48,7 +48,7 @@ chain = load_chain()
 snow_ddl = Snowddl()
 
 st.title("SnowChat")
-st.caption("Talk your way through data")
+st.caption("An easier way to navigate your Snowflake databases. ")
 
 with open("ui/sidebar.md", "r") as sidebar_file:
     sidebar_content = sidebar_file.read()
