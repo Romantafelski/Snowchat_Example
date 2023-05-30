@@ -90,7 +90,6 @@ messages_container = st.container()
 with st.form(key='my_form'):
     query = st.text_input("Query: ", key="input", value="",
                           placeholder="Type your query here...", label_visibility="hidden")
-    submit_button = st.form_submit_button(label='Submit')
     st.caption("Results may take a few moments to populate.")
 col1, col2 = st.columns([1, 3.2])
 reset_button = col1.button("Reset Chat History")
