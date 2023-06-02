@@ -56,7 +56,7 @@ with open("ui/sidebar.md", "r") as sidebar_file:
 with open("ui/styles.md", "r") as styles_file:
     styles_content = styles_file.read()
 
-# Display the DDL foxzfvxvcr the selected table
+# Display the DDL for the selected table
 st.sidebar.markdown(sidebar_content)
 
 # 
