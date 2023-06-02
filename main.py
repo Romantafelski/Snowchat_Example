@@ -16,6 +16,7 @@ openai.api_version = "2023-03-15-preview"
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 MAX_INPUTS = 5
 #Limit of 3 inputs because gpt-3.5-turbo only allows 3 per min. 
+#5
 
 chat_history = []
 
