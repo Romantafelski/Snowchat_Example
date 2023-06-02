@@ -87,7 +87,7 @@ if "query_count" not in st.session_state:
 RESET = True
 messages_container = st.container()
 
-with st.form(key='my_form'):
+with st.form(key='my_form', clear_on_submit=True):
     query = st.text_input("Query: ", key="input", value="",
                           placeholder="Type your query here...", label_visibility="hidden")
     submit_button = st.form_submit_button(label='Submit')
