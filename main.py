@@ -9,7 +9,7 @@ from langchain.vectorstores import FAISS
 from utils.snowddl import Snowddl
 from utils.snowchat_ui import reset_chat_history, extract_code, message_func, is_sql_query
 
-# MAX_INPUTS = 5 because gpt-3.5-turbo only allows 3 per minute.
+# MAX_INPUTS = 6 because gpt-3.5-turbo only allows 3 per minute.
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
@@ -56,7 +56,7 @@ with open("ui/sidebar.md", "r") as sidebar_file:
 with open("ui/styles.md", "r") as styles_file:
     styles_content = styles_file.read()
 
-# Display the DDL for the selected table
+# Display the DDL foxzfvxvcr the selected table
 st.sidebar.markdown(sidebar_content)
 
 # 
@@ -90,7 +90,7 @@ messages_container = st.container()
 with st.form(key='my_form', clear_on_submit=True):
     query = st.text_input("Query: ", key="input", value="",
                           placeholder="Type your query here...", label_visibility="hidden")
-    submit_button = st.form_submit_button(label='Submit')
+    submit_button = st.form_submit_button(label='Submit', )
     st.caption("Results may take a few moments to populate.")
 col1, col2 = st.columns([1, 3.2])
 reset_button = col1.button("Reset Chat History")
