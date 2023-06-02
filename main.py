@@ -8,15 +8,11 @@ from utils.snowflake import query_data_warehouse
 from langchain.vectorstores import FAISS
 from utils.snowddl import Snowddl
 from utils.snowchat_ui import reset_chat_history, extract_code, message_func, is_sql_query
-#Connecting to Azure Cog
-# import os
-# #from dotenv import load_dotenv
-# from azure.identity import AzureCliCredential, ChainedTokenCredential, ManagedIdentityCredential
-openai.api_type = "azure"
-openai.api_base = "https://ai-accerator.openai.azure.com/"
-openai.api_version = "2023-03-15-preview"
+
 openai.api_key = st.secrets["OPENAI_API_KEY"]
-MAX_INPUTS = 5
+
+#Limit of 3 inputs because gpt-3.5-turbo only allows 3 per min. 
+MAX_INPUTS = 3
 chat_history = []
 
 st.set_page_config(
