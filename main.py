@@ -13,7 +13,7 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 openai.api_type = "azure"
 openai.api_base = "https://ai-accerator.openai.azure.com/"
 openai.api_version = "2023-03-15-preview"
-# MAX_INPUTS = 6 because gpt-3.5-turbo only allows 3 per minute.
+# MAX_INPUTS = 60 because gpt-3.5-turbo only allows 3 per minute.
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 MAX_INPUTS = 5
