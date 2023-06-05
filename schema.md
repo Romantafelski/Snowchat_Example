@@ -11,7 +11,7 @@ This is a table contains data about sale and operations
 - CPI: FLOAT
 - UNEMPLOYMENT: FLOAT
 
-**Table 2: OPENAI.KAGGLE.WALMART_OPERATIONS** (Stores customer information)
+**Table 2: OPENAI.KAGGLE.WALMART_OPERATIONS** (Stores operations information)
 
 This is a table contains data about sale and operations
 
