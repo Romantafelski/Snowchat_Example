@@ -151,7 +151,7 @@ def generate_df(to_extract: str):
     '''
     df = query_data_warehouse(to_extract)
     st.dataframe(df, use_container_width=True)
-    return df
+    
 
 with messages_container:
     if st.session_state['generated']:
