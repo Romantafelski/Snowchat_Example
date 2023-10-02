@@ -24,7 +24,7 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="auto",
     menu_items={
-        'Report a bug': "https://github.com/kaarthik108/snowChat",
+        'Reportt a bug': "https://github.com/kaarthik108/snowChat",
         'About': '''snowChat is a chatbot designed to help you with Snowflake Database. It is built using OpenAI's GPT-4 and Streamlit. 
             Go to the GitHub repo to learn more about the project. https://github.com/kaarthik108/snowChat 
             '''
